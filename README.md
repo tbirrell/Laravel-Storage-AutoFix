@@ -1,6 +1,6 @@
 # Laravel Storage Auto Fix
 
-This package adds an Artisan command to handle the `Permission Declined` error that usually occurs on the `storage/logs` directory.
+This package adds an Artisan command to handle the `Permission Denied` error that usually occurs on the `storage/logs` directory.
 
 ### Install
 
