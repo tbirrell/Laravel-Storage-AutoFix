@@ -1,0 +1,23 @@
+{
+  "name": "tbirrell/laravel-storage-autofix",
+  "description": "Artisan command to fix common Laravel storage errors",
+  "authors": [
+    {
+      "name": "tbirrell",
+      "email": "tbirrell@xristos.net"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "tbirrell\\StorageAutofix\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "tbirrell\\StorageAutofix\\StorageAutofixServiceProvider"
+      ]
+    }
+  }
+}
