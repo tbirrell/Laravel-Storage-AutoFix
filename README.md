@@ -1,12 +1,15 @@
-#Laravel Storage Auto Fix
+# Laravel Storage Auto Fix
 
 This package adds an Artisan command to handle the `Permission Declined` error that usually occurs on the `storage/logs` directory.
 
-##Install
+### Install
+
 `composer require tbirrell/laravel-storage-autofix`
 
-##Usage
+### Usage
+
 `php artisan storage:fix-permissions`
 
-##Behind the Scenes
+### Behind the Scenes
+
 This command updates the chown and chmod values for `bootstrap/cache` and `storage` to allow the Laravel application access.
